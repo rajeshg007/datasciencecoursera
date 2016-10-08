@@ -1,13 +1,13 @@
-Coursera 
+#Coursera 
 ========
 
-Data Science Specialisation
+##Data Science Specialisation
 ===========================
 
-Getting and Cleaning Data 
+###Getting and Cleaning Data 
 =========================
 
-Course Project
+####Course Project
 ==============
 
 This file describes how run_analysis.R script works.
