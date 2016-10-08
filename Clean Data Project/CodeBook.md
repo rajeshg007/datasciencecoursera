@@ -31,3 +31,33 @@ This is an additional file for the ease of users.
 * `ColNames` : Contains the Data from `features.txt`, and contains the names of the columns in `Tot_x`
 * `Req_Cols` : Contains a subset of `ColNames` that refer to means and standard deviations
 * `Activities` : Contains the data from `actiity_labels.txt`, and contains the names of activities present in the variables `test_Y`,`train_Y`,`Tot_Y`
+
+#Steps involved in the Code
+
+#### Step 0
+* Verify whether the Data is present or not.
+* If the data is not present download it from the url `https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip`
+* Unzip the file to extract the data
+
+#### Step 1
+
+* Load the Test Data
+* Load the Training Data
+* Combine the Test Data and Training Data to get a Unified Data
+
+#### Step 2
+* Load the Column Names
+* Assign them to the data
+* Identify the required Columns for analysis
+* Extract the data from required Columns
+
+####Step 3
+* Add Activity Labels to the Data
+* Modify the column names to be more readable and meaningful
+
+#### Step 4
+* Combine the data from `Tot_X`,`Tot_Y`,`Sub_X` to get a single Data table
+
+#### Step 5
+* Aggregate the data.
+* Write it out to a file
