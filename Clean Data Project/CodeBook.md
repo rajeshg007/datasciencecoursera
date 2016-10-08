@@ -5,7 +5,7 @@ This is an additional file for the ease of users.
 
 ## Variables
 
-* `datazip` : This is a dynamically initialised name the downloadable Zip file.
+* `datazip` : This is a dynamically initialised name the downloadable Zip file
 ####Variables containing Test Data
 * `test_X' : Contains the data from the file `X_test.txt`
 * `test_Y' : Contains the data from the file `Y_test.txt`
