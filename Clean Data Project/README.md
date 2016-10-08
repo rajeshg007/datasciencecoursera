@@ -13,7 +13,7 @@ This is an Introductory Page to the Course Project, and contains Breif Informati
 * This Project contains a Single R file, which can be executed to get the desired output.
 * Prerequisites of running the Code are
   * Samsung Data Folder is unziped and present in the Working Directory.
-    or
+  Or
   * The system on which the Program is being Executed has access to internet. (with out using any proxy servers)
 * First, unzip the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and rename the folder with "data".
 * Make sure the folder "data" and the run_analysis.R script are both in the current working directory.
