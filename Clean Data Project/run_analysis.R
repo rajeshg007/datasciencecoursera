@@ -1,26 +1,31 @@
 # Required Libraries
 library(dplyr)
 
-# Some part of the code here is Commented out as
 # Instruction was to the Submitted Code That works as long as the Data is present in the Working Directory
+# But the code below is also capable of Downloading the Zip file and Unzipping it
+# Only when the Data Folder is not present in the Working Directory
 
 # Store the File name of the Zip file so that it can be used elsewhere
 # File name is taken dynamically to avoid using unwanted data with same name. 
 
 # It helps a lot when you use same WD for multiple projects
+if(!file.exists("UCI HAR Dataset")){
 
-#datazip <- paste("data",gsub(":","_",as.character(as.POSIXlt(Sys.time(), "GMT"))),".zip",sep = "")
+  datazip <- paste("data",gsub(":","_",as.character(as.POSIXlt(Sys.time(), "GMT"))),".zip",sep = "")
 
 # check if the File is there or not and then download the file.
-# (Obviously It wont be there, but still a good habit to check)
 
-#if(!file.exists(datazip)){ #if the file doesnot exist download it.
+  if(!file.exists(datazip)){ #if the file doesnot exist download it.
 
-#  download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",datazip)
-#}
+  
+    download.file("https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",datazip)
+
+  }
 
 # Unzip The File
-#unzip(datazip)
+
+  unzip(datazip)
+}
 
 # Now all the required Files are downloaded and unzipped.
 # in short they are ready to be used
