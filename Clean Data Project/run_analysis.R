@@ -1,6 +1,3 @@
-# Required Libraries
-library(dplyr)
-
 # Instruction was to the Submitted Code That works as long as the Data is present in the Working Directory
 # But the code below is also capable of Downloading the Zip file and Unzipping it
 # Only when the Data Folder is not present in the Working Directory
