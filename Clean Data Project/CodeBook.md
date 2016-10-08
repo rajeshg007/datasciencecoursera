@@ -18,7 +18,7 @@ This is an additional file for the ease of users.
 * `train_Sub` : Contains the data from the file `subject_train.txt`
 
 ####Variables containing Combined Data 
-From test and training
+######From test data and training data
 
 * `Tot_X` : Contains the Combined data `X`
 * `Tot_Y` : Contains the Combined data `Y`
